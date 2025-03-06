@@ -97,27 +97,25 @@ export default {
       // ? ----- SISTEM WARNA -----
       colors: {
         background: {
-          DEFAULT: '#ffffff', // Warna latar belakang default putih
-          secondary: '#F5F5DC', // Warna latar belakang sekunder (beige)
+          DEFAULT: '#FFFFFF', // Warna latar belakang default putih
         },
         border: {
-          DEFAULT: '#8C9196', // Warna border default abu-abu
-          subdued: '#C9CCCF', // Warna border lebih terang
+          DEFAULT: '#DCE2FB', // Warna border default abu-abu
         },
         primary: {
-          DEFAULT: '#E2E8F0 ', // Warna utama (terang abu-abu)
+          DEFAULT: '#171239', // Warna utama (terang abu-abu)
         },
         secondary: {
-          DEFAULT: '#1F2937', // Warna sekunder (gelap)
+          DEFAULT: '#F0F3FF', // Warna sekunder (gelap)
         },
         accent: {
-          DEFAULT: '#22D3EE', // Warna aksen biru cerah
+          DEFAULT: '#65558F', // Warna aksen biru cerah
         },
         light: {
-          DEFAULT: '#F9FAFB', // Warna terang latar belakang
+          DEFAULT: '#D8DBE6', // Warna terang latar belakang
         },
         dark: {
-          DEFAULT: '#0F172A', // Warna latar belakang gelap
+          DEFAULT: '#211951', // Warna latar belakang gelap
         },
       },
 
