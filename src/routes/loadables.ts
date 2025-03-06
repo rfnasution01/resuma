@@ -12,3 +12,5 @@ export const HomePage = loadable(() => import('@/pages/homepage'))
 // Dynamically import the NotFoundPage component from the 'notFound' page
 // This page will be used for displaying a 404 error when no matching route is found
 export const NotFoundPage = loadable(() => import('@/pages/notFound'))
+
+export const BuatResumeMain = loadable(() => import('@/pages/buatResume'))

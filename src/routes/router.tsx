@@ -1,7 +1,7 @@
 // Import the necessary modules from 'react-router-dom' for setting up routes
 import { createBrowserRouter } from 'react-router-dom'
 // Import dynamically loaded components (HomePage, MainLayout, NotFoundPage) using loadable
-import { HomePage, MainLayout, NotFoundPage } from './loadables'
+import { BuatResumeMain, HomePage, MainLayout, NotFoundPage } from './loadables'
 
 // Create a router configuration using 'createBrowserRouter' to define application routes
 export const router = createBrowserRouter([
@@ -18,6 +18,10 @@ export const router = createBrowserRouter([
         // It loads the HomePage component when the root path is accessed
         path: '',
         element: <HomePage />,
+      },
+      {
+        path: 'buat-resume',
+        element: <BuatResumeMain />,
       },
       {
         // Define a wildcard '*' route that will match any path that doesn't exist
